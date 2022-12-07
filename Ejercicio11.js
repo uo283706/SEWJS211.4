@@ -1,4 +1,4 @@
-class Mapeador{
+class Map{
 
     constructor(){
 
@@ -13,7 +13,7 @@ class Mapeador{
 }
 
 
-var mapaDinamicoGoogle = new Object();
+var mapaGoogle = new Object();
 
-var mapeador = new Mapeador();
-mapaDinamicoGoogle.initMap = mapeador.initMap;
+var map = new Map();
+mapaGoogle.initMap = map.initMap;
